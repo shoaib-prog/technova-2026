@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration | TechNova 2026</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>⚡ TECHNOVA 2026</h1>
+        <p>Participant Registration</p>
+
+        <hr>
+
+        <nav>
+            <a href="index.html">HOME</a> |
+            <a href="events.html">EVENTS</a> |
+            <a href="schedule.html">SCHEDULE</a> |
+            <a href="registration.html">REGISTER</a> |
+            <a href="gallery.html">GALLERY</a> |
+            <a href="team.html">TEAM</a> |
+            <a href="faq.html">FAQ</a> |
+            <a href="contact.html">CONTACT</a>
+        </nav>
+
+        <hr>
+
+    </header>
+
+
+    <main>
+
+        <h2>🚀 REGISTER FOR TECHNOVA 2026</h2>
+
+        <p>
+            Fill in your details carefully to complete your registration.
+        </p>
+
+
+        <form action="#" method="post">
+
+            <fieldset>
+
+                <legend>
+                    <strong>Personal Information</strong>
+                </legend>
+
+                <p>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname"
+                        placeholder="Enter your full name" required>
+                </p>
+
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"
+                        placeholder="example@email.com" required>
+                </p>
+
+
+                <p>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone"
+                        placeholder="Enter phone number" required>
+                </p>
+
+
+                <p>
+                    <label for="dob">Date of Birth:</label><br>
+                    <input type="date" id="dob" name="dob">
+                </p>
+
+
+                <p>
+                    <strong>Gender:</strong><br>
+
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+
+                    <input type="radio" id="other" name="gender" value="Other">
+                    <label for="other">Other</label>
+
+                </p>
+
+            </fieldset>
+
+
+            <br>
+
+
+            <fieldset>
+
+                <legend>
+                    <strong>Academic Information</strong>
+                </legend>
+
+                <p>
+                    <label for="college">College Name:</label><br>
+                    <input type="text" id="college" name="college"
+                        placeholder="Enter college name" required>
+                </p>
+
+
+                <p>
+                    <label for="branch">Branch:</label><br>
+
+                    <select id="branch" name="branch">
+
+                        <option value="">-- Select Branch --</option>
+
+                        <option value="CSE">
+                            Computer Science Engineering
+                        </option>
+
+                        <option value="ISE">
+                            Information Science Engineering
+                        </option>
+
+                        <option value="ECE">
+                            Electronics & Communication
+                        </option>
+
+                        <option value="EEE">
+                            Electrical & Electronics
+                        </option>
+
+                        <option value="ME">
+                            Mechanical Engineering
+                        </option>
+
+                        <option value="Other">
+                            Other
+                        </option>
+
+                    </select>
+
+                </p>
+
+
+                <p>
+                    <label for="graduation">Graduation Year:</label><br>
+
+                    <select id="graduation" name="graduation">
+
+                        <option value="">-- Select Year --</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                        <option value="2029">2029</option>
+
+                    </select>
+
+                </p>
+
+            </fieldset>
+
+
+            <br>
+
+
+            <fieldset>
+
+                <legend>
+                    <strong>Event Selection</strong>
+                </legend>
+
+                <p>
+                    <label for="event">Select Primary Event:</label><br>
+
+                    <select id="event" name="event" required>
+
+                        <option value="">-- Select Event --</option>
+                        <option value="code-sprint">Code Sprint</option>
+                        <option value="hackathon">Technovation Hackathon</option>
+                        <option value="tech-quiz">Tech Quiz</option>
+                        <option value="paper-presentation">
+                            Paper Presentation
+                        </option>
+                        <option value="cyber-challenge">
+                            Cyber Challenge
+                        </option>
+
+                    </select>
+
+                </p>
+
+
+                <p>
+                    <strong>Additional Interests:</strong><br>
+
+                    <input type="checkbox" id="ai" name="interest" value="AI">
+                    <label for="ai">Artificial Intelligence</label><br>
+
+                    <input type="checkbox" id="web" name="interest" value="Web">
+                    <label for="web">Web Development</label><br>
+
+                    <input type="checkbox" id="cloud" name="interest" value="Cloud">
+                    <label for="cloud">Cloud Computing</label><br>
+
+                    <input type="checkbox" id="cyber" name="interest" value="Cybersecurity">
+                    <label for="cyber">Cybersecurity</label>
+
+                </p>
+
+
+                <p>
+                    <label for="team">Team Size:</label><br>
+                    <input type="number" id="team" name="team"
+                        min="1" max="4" value="1">
+                </p>
+
+            </fieldset>
+
+
+            <br>
+
+
+            <fieldset>
+
+                <legend>
+                    <strong>Additional Information</strong>
+                </legend>
+
+                <p>
+                    <label for="skills">Technical Skills:</label><br>
+
+                    <textarea id="skills" name="skills"
+                        rows="5" cols="50"
+                        placeholder="Mention your technical skills"></textarea>
+                </p>
+
+
+                <p>
+                    <label for="document">Upload College ID:</label><br>
+                    <input type="file" id="document" name="document">
+                </p>
+
+
+                <p>
+                    <label for="message">Anything else you want us to know:</label><br>
+
+                    <textarea id="message" name="message"
+                        rows="5" cols="50"
+                        placeholder="Write your message"></textarea>
+                </p>
+
+            </fieldset>
+
+
+            <br>
+
+
+            <fieldset>
+
+                <legend>
+                    <strong>Declaration</strong>
+                </legend>
+
+                <p>
+                    <input type="checkbox" id="agree" name="agree" required>
+
+                    <label for="agree">
+                        I confirm that the information provided by me
+                        is correct and I agree to follow the event rules.
+                    </label>
+                </p>
+
+            </fieldset>
+
+
+            <br>
+
+
+            <button type="submit">
+                🚀 SUBMIT REGISTRATION
+            </button>
+
+            &nbsp;
+
+            <button type="reset">
+                RESET FORM
+            </button>
+
+        </form>
+
+    </main>
+
+
+    <footer>
+
+        <hr>
+
+        <p>
+            &copy; 2026 TechNova | KNS Institute of Technology
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
